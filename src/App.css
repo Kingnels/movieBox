@@ -1,3 +1,18 @@
 body {
-  background: #435;
+  background: rgb(252, 253, 235);
+}
+html{
+  scroll-behavior: smooth; 
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar{
+  width: .1rem;
+  color: #000;
+}
+html::-webkit-scrollbar-thumb{
+  background:  rgb(65, 23, 34);
+  border-radius:2rem;
 }

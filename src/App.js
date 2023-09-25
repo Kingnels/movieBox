@@ -1,19 +1,15 @@
 import './App.css';
-import Header from './components/Header'
-import Hero from './components/Hero'
+import Banner from './components/Banner'
 import Posters from './components/Posters'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
+      <Banner />
       <Posters />
-      <>
-        this is the first task of the hng x internship
-      </>
+      <Footer />
     </div>
   );
 }
-
 export default App;
